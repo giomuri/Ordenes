@@ -1,14 +1,4 @@
 	<br><br><br>
-	<!-- <div class="box box-primary"> 
-		<ul>
-         <?php foreach ($res as $item): ?>
-            <li> <?php echo $item->idImagen.": ".$item->ruta ?> </li>
-            
-            	<img src="<?=base_url()?>uploads/imagenes/thumbs/<?php echo $item->ruta;?>" />
-            
-         <?php endforeach; ?>
-        </ul>
-	-->
 	<div class="box box-primary">
 		<div class="box-body">
 		<div class="col-sm-10">

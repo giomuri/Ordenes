@@ -43,13 +43,19 @@ class Morden extends CI_Model
 	}
 
 	public function deleteOrdenId($id_orden, $id_tecnico){
-    	$this->db->select('o.idOrden,o.cliente,o.idArticulo, o.fechaOrden');
+    	/*$this->db->select('o.idOrden,o.cliente,o.idArticulo, o.fechaOrden');
 		$this->db->from('orden o');
 		//$this->db->join('articulo a','a.idArticulo = o.idArticulo');
 		$this->db->where('o.idOrden',$id_orden);
-		$s = $this->db->get();
+		
 
-		return $s->result();
+
+		$s = $this->db->get();*/
+
+		$this->db->where('idOrden', $id_orden);
+		//$this->db->delete('orden');
+
+		return $this->db->delete('orden');
 	}
 
 	public function addOrden($param){

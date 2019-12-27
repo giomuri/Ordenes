@@ -67,7 +67,7 @@ class Corden extends CI_Controller
 
 		$this->load->view('layout/header');
 		$this->load->view('layout/menu');
-		$this->load->view("orden/veliminarorden", array('res' => $res1));
+		$this->load->view("orden/vorden", array('res' => $res1));
 		//$this->load->view('orden/vaddorden');
 		$this->load->view('layout/footer');
 	}

@@ -27,7 +27,7 @@
 		    <tbody>	
 		    </tbody>
 		  </table>
-		  <input type="submit" value="Update" class="btn btn-primary btn-lg btn-block btn-success">
+		  <input type="submit" value="Eliminar" class="btn btn-primary btn-lg btn-block btn-success">
 		</form>
 	  </div>
 	  <a class="enlace" href="<?php echo base_url('corden/index/'.$id);?>"><h4>Volver atras</h4></a>
